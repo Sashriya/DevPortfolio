@@ -17,7 +17,7 @@ function Navbar() {
   ];
 
   return (
-    <header className="bg-black text-white">
+    <header className="bg-black text-white fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center p-4 max-w-7xl mx-auto">
         <h1 className="text-3xl bg-linear-to-r from-blue-500 to-teal-500 inline-block text-transparent bg-clip-text font-bold italic">
           PortFolio

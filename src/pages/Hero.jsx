@@ -5,7 +5,7 @@ import { motion as Motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div>
+    <div className="pt-15">
       <section
         className="flex flex-col-reverse md:flex-row justify-between items-center p-6 md:p-20 bg-black gap-15"
       >

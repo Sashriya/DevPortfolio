@@ -3,7 +3,7 @@ import { motion as Motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className='bg-black text-white flex flex-col px-4 py-10 md:px-20 gap-10'>
+    <div className='bg-black text-white flex flex-col px-4 py-10 md:px-20 gap-10 pt-20'>
         <Motion.div initial={{opacity:0, x:500}} whileInView={{opacity:1, x:0}}
         transition={{delay:0.1, duration:0.2, ease:'easeOut'}}>
             <h1 className='text-3xl bg-linear-to-r from-blue-600 to-teal-500 inline-block w-28 text-transparent bg-clip-text font-bold italic'>Contact</h1>

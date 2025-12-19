@@ -38,7 +38,7 @@ const skillsData = [
 
 function Skills() {
   return (
-    <section className="bg-black text-white py-16 px-6" id="skills">
+    <section className="bg-black text-white py-16 px-6 pt-15">
       <Motion.h2 initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }}
       transition={{duration: 0.2, delay:0.1}} viewport={{ once: true }}
       className="text-4xl font-bold ps-10 bg-linear-to-r from-teal-500 to-blue-500 inline-block text-transparent bg-clip-text mb-12">Skills</Motion.h2>

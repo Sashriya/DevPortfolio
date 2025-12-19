@@ -10,7 +10,7 @@ import Chatbot from '../assets/chatbot.png'
 
 function Project() {
   return (
-    <div className='bg-black text-white p-10'>
+    <div className='bg-black text-white p-10 pt-15'>
       <Motion.h1 initial={{opacity:0, x:-100}} whileInView={{opacity:1, x:0}}
       transition={{duration:0.2, delay:0.1, ease:'easeOut'}}
       viewport={{once:true, amount:0.5}} 
