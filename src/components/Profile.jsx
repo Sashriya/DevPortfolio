@@ -17,10 +17,10 @@ function Profile() {
       <h2 className='md:text-5xl text-4xl font-bold italic'>Hi! I'm <span className='text-teal-500'> Sashriya M </span></h2>
       <p className='text-2xl font-semibold italic'>
         <TypeAnimation sequence={[
-            "I am a Web Developer", 3000,
-            "I am a App Developer", 3000,
-            "I am a AI Engineer", 3000,
-            "I am a Creative Designer", 3000,
+            "I am an Web Developer", 3000,
+            "I am an App Developer", 3000,
+            "I am an AI Engineer", 3000,
+            "I am an Creative Designer", 3000,
         ]}
         wrapper='span' speed={50} repeat={Infinity} />
       </p>
