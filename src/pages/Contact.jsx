@@ -14,6 +14,7 @@ function Contact() {
                 <input type="email"  placeholder='Enter your Email' className='p-3 bg-gray-700 rounded-lg' />
                 <label className='text-xl font-bold italic'>Message</label>
                 <textarea rows={4} className='p-3 bg-gray-700 rounded-lg resize-none' placeholder='Enter Your Message' />
+                <button className='bg-teal-500 py-3 w-27 shadow-teal-500 rounded-2xl'>Sumbit</button>
             </div>
         </Motion.div>
     </div>
