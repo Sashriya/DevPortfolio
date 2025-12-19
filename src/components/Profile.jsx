@@ -60,7 +60,7 @@ function Profile() {
           <FaGithubSquare size={35} />
         </a>
         <a
-          href="https://www.linkedin.com/in/sashriya-m-b2013a296/"
+          href="https://www.linkedin.com/in/sashriya-m/"
           target="_blank"
           className="text-white hover:text-teal-400"
         >
