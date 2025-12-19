@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <header className="bg-black text-white">
       <div className="flex justify-between items-center p-4 max-w-7xl mx-auto">
-        <h1 className="text-3xl bg-linear-to-r from-blue-600 to-teal-500 inline-block text-transparent bg-clip-text font-bold italic">
+        <h1 className="text-3xl bg-linear-to-r from-blue-500 to-teal-500 inline-block text-transparent bg-clip-text font-bold italic">
           PortFolio
         </h1>
         <nav className="hidden md:block">
